@@ -1,7 +1,9 @@
 .catalog {
   display: grid;
+  box-sizing: border-box;
   box-sizing: inherit;
-  gap: 48px 46px;
+  height: 862px;
+  gap: 49px 47px;
   padding: 50px 40px;
   justify-content: center;
   grid-template-columns: repeat(1, 200px);
@@ -20,7 +22,9 @@
 
   .card {
     width: 200px;
+    height: 408px;
     padding: 32px 16px 16px;
+    border-radius: 5px;
     border: 1px solid #f3f3f3;
     box-sizing: border-box;
     transition: transform $transition-duration;
